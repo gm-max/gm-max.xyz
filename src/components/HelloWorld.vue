@@ -9,28 +9,22 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-
   <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
-    <p>
-      Edit
-      <code>components/HelloWorld.vue</code> to test HMR
-    </p>
+  <h1>Max Guerois</h1>
   </div>
-
-  <p>
-    Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
-  </p>
-  <p>
-    Install
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
-    in your IDE for a better DX
-  </p>
-  <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
+  <div class="card">
+    Hey there! I'm Max, also known as Maxime in France. I'm just a guy who's passionate about creating things for others.
+  </div>
+  <div class="card">
+    Currently, I'm helping creators leverage their community through AI experiences. It's called <a href="https://second-brain.me">Secondbrain</a>.
+  </div>
+  <div class="card">
+    Previously focused on making web3 social with Grin, the first photo-sharing app for anon
+    integrating NFTs as filter, <a href="https://mirror.xyz/mytyavatar.eth/mzCVwlG7x7w_oZv_u2H7DwVhBuvYp8sRrC-RH9jvuA4">more here</a>.
+  </div>
+  <div class="card">
+      DMs are opened on <a href="https://twitter.com/gm_maxg">Twitter</a> and <a href="https://t.me/gm_maxg">Telegram</a>. I can do <a href="emailto:maximeguerois@gmail.com">email</a> too.
+  </div>
 </template>
 
 <style scoped>
