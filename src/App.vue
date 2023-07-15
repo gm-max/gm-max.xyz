@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <div class="card">
     <a target="_blank">
-      <img src="./assets/pfp.jpeg" class="logo" alt="yo, I'm Max :)" />
+      <img src="./images/pfp.jpeg" class="logo" alt="yo, I'm Max :)" />
     </a>
   </div>
   <HelloWorld msg="Max" />

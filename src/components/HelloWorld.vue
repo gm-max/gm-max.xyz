@@ -19,7 +19,7 @@ const count = ref(0)
     Currently, I'm helping creators leverage their community through AI experiences. It's called <a href="https://second-brain.me">Secondbrain</a>.
   </div>
   <div class="card">
-    Previously, focused on making web3 social with Grin, the first photo-sharing app for anon
+    Previously focused on making web3 social with Grin, the first photo-sharing app for anon
     integrating NFTs as filter, <a href="https://mirror.xyz/mytyavatar.eth/mzCVwlG7x7w_oZv_u2H7DwVhBuvYp8sRrC-RH9jvuA4">more here</a>.
   </div>
   <div class="card">
