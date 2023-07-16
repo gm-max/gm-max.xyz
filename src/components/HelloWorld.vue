@@ -13,7 +13,7 @@ const count = ref(0)
   <h1>Max Guerois</h1>
   </div>
   <div class="card">
-    Hey there! I'm Max, also known as Maxime in France. I'm just a guy who's passionate about creating things for others.
+    Yo! I'm Max, also known as Maxime in France. I'm just a guy who's passionate about creating things for others.
   </div>
   <div class="card">
     Currently, I'm helping creators leverage their community through AI experiences. It's called <a href="https://second-brain.me">Secondbrain</a>.
