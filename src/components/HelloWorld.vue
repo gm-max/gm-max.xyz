@@ -10,20 +10,38 @@ const count = ref(0)
 
 <template>
   <div class="card">
-  <h1>Max Guerois</h1>
+  <h1>Hi, I'm Max and I'm truly passionate about connecting people each others and creating things to help them.</h1>
   </div>
   <div class="card">
-    Yo! I'm Max, 26 years old, also known as Maxime in France. I'm just a guy who's passionate about creating things for others.
+  <subtitle>COMMUNITIES FROM O TO 1</subtitle>
+    <paragraph>
+    <ul>
+          <li><b>Zero Club (currently):</b> 200+ biohackers and longevity enthusiasts in Europe. <a href="https://joinzero.co">Join us</a>.</li>
+          <li><b>Second Brain:</b> 100+ susbstack creators. <a href="https://2ndbrainme.substack.com/">Check it out</a>.</li>
+          <li><b>Grin:</b> 40k+ NFT enthusiasts. <a href="https://mirror.xyz/mytyavatar.eth/mzCVwlG7x7w_oZv_u2H7DwVhBuvYp8sRrC-RH9jvuA4">Read more here</a>.</li>
+          <li><b>The Arch:</b> 1200+ web3 builders, founders and contributors in France. <a href="https://twitter.com/jointhearch">Check out the Twitter</a>.</li>
+          <li><b>Practup:</b> 25k+ gym and fitness enthusiasts in France.</li>
+    </ul>
+    </paragraph>
   </div>
+
   <div class="card">
-    Currently, I'm helping creators leverage their community through AI experiences. It's called <a href="https://second-brain.me">Secondbrain</a>.
+  <subtitle>I CAN HELP YOU</subtitle>
+      <paragraph>
+        I can help you <b>strategically (analyzing, auditing, and coming up with recommendations) or operationally (executing campaigns).</b>
+      </paragraph>
+      <paragraph>
+        I've enough strategic and creative thinking skills to lay out a plan, but also to get shit done.
+      </paragraph>
+      <paragraph>I’m community & growth expert with a problem-solver mindset. The only thing that matters to me is to help you reach your goal and boost the metrics you’re trying to boost.
+      </paragraph>
   </div>
+
   <div class="card">
-    Previously focused on making web3 social with Grin, the first photo-sharing app for anon
-    integrating NFTs as filter, <a href="https://mirror.xyz/mytyavatar.eth/mzCVwlG7x7w_oZv_u2H7DwVhBuvYp8sRrC-RH9jvuA4">more here</a>.
-  </div>
-  <div class="card">
-      DMs are opened on <a href="https://twitter.com/gm_maxg">Twitter</a> and <a href="https://t.me/gm_maxg">Telegram</a>. I can do <a href="emailto:maximeguerois@gmail.com">email</a> too.
+  <subtitle>CONTACT</subtitle>
+      <paragraph>
+             <b>DMs are opened</b> on <a href="https://twitter.com/gm_maxg">Twitter</a> and <a href="https://t.me/gm_maxg">Telegram</a>. I can do <a href="emailto:maximeguerois@gmail.com">email</a> too.
+      </paragraph>
   </div>
 </template>
 

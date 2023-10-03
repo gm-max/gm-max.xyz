@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <div class="card">
     <a target="_blank">
-      <img src="./assets/pfp.jpeg" class="logo" alt="yo, I'm Max :)" />
+      <img src="./assets/pfp.jpeg" class="logo" alt="Hi, I'm Max"/>
     </a>
   </div>
   <HelloWorld msg="Max" />
@@ -16,6 +16,7 @@ import HelloWorld from './components/HelloWorld.vue'
   max-width: 300px;
   will-change: filter;
   transition: filter 300ms;
+  border-radius: 0.2em;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
