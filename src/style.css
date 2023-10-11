@@ -1,5 +1,5 @@
 :root {
-  font-family: 'Arial Black', sans-serif, 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Arial Black', sans-serif, 'Arial', 'Helvetica Neue', Helvetica, sans-serif, system-ui, -apple-system;
   font-weight: 300, 400, 500, 600, 700, 800;
 
   color-scheme: light dark;
@@ -26,7 +26,7 @@ a:hover {
 
 
 body {
-  font-family: 'Arial Black', sans-serif, 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Arial Black', sans-serif, 'Arial', 'Helvetica Neue', Helvetica, sans-serif, system-ui, -apple-system;
   margin-top: 15px;
   margin-bottom: 45px;
   min-width: 320px;
@@ -48,12 +48,19 @@ button {
 }
 
 h1 {
-  font-family: 'Arial Black', sans-serif;
+  font-family: system-ui, -apple-system;
   font-size: 24px;
   font-weight: 600;
-  line-height: 1.2;
+  line-height: 1.5;
   margin: 0px;
   color:#272729
+}
+
+.divider {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  height: 1px;
+  background-color: #2c292938;
 }
 
 ul {
@@ -78,12 +85,13 @@ subtitle {
 }
 
 paragraph {
-  font-family: 'Arial', sans-serif;
+  font-family: system-ui, -apple-system;
   font-size: 14px;
-  font-weight: 500;
-  line-height: 1.1;
+  font-weight: 400;
+  line-height: 1.5;
   margin: 0px;
-  margin-bottom: 8px;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
 }
 
 
@@ -99,7 +107,7 @@ button:focus-visible {
 }
 
 .card {
-  padding: 1rem;
+  padding: 0.5rem;
   max-width: 500px;
   text-align: left;
   display:flex;
@@ -124,4 +132,29 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+
+.cta {
+  text-align:left;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  color: #272729;
+  font-size: 14px;
+  padding: 0.2rem;
+  text-decoration: underline;
+  font-weight: 400;
+  font-family: system-ui, -apple-system;
+  /* Use your desired font */
+  transition:  background-color 0.25s;
+}
+
+.cta-button:hover {
+  color: #29ba61;
+  text-decoration: underline;
 }
